@@ -7,22 +7,33 @@ body {
 }
 
 .boton1 {
-    background-color: #351c75;
+    background-color: #31145b;
     color: white;
     font-family: Roboto, Arial;
     font-weight: 700;
     padding: 5px;
     font-size: 15pt;
     border: none;
+    border-radius: 3px;
 }
 .boton2 {
-    background-color: #351c75;
+    background-color: #31145b;
     color: white;
     font-family: Roboto, Arial;
     font-weight: 600;
     padding: 5px;
     font-size: 15pt;
     border: none;
+    border-radius: 3px;
+}
+.boton3 {
+    background-color: white;
+    color: #31145b;
+    font-family: Roboto, Arial;
+    padding: 5px;
+    font-size: 12pt;
+    border: 0.5px solid black;
+    border-radius: 3px;
 }
 
 .tipo1 {
@@ -35,7 +46,7 @@ body {
         padding: 10px;
 
         .titulo {
-            color: #351c75;
+            color: #31145b;
             font-family: Roboto, Arial;
             font-weight: 700;
             font-size: 26pt;
@@ -245,7 +256,7 @@ body {
         padding: 10px;
 
         .titulo {
-            color: #351c75;
+            color: #31145b;
             font-family: Roboto, Arial;
             font-weight: 700;
             font-size: 22pt;
@@ -275,6 +286,143 @@ body {
         width: 40%;
         img {
             width: 100%;
+        }
+    }
+}
+
+.tipo7 {
+    display: flex;
+    width: 85%;
+    margin-top: 30px;
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding: 10px;
+
+        .titulo {
+            color: #31145b;
+            font-family: Roboto, Arial;
+            font-weight: 700;
+            font-size: 22pt;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+        .texto {
+            color: #212121;
+            font-family: Roboto, Arial;
+            font-variant: normal;
+            font-weight: 500;
+            vertical-align: baseline;
+            font-size: 15pt;
+            line-height: 38px;
+            margin-bottom: 40px;
+        }
+    }
+    .imagen {
+        width: 40%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.tipo8 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-top: 20px;
+
+    .titulo {
+        color: #31145b;
+        font-family: Roboto, Arial;
+        font-weight: 700;
+        font-size: 22pt;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+    .texto {
+        color: #212121;
+        font-family: Roboto, Arial;
+        font-variant: normal;
+        font-weight: 500;
+        vertical-align: baseline;
+        font-size: 15pt;
+        line-height: 38px;
+        margin-bottom: 40px;
+    }
+}
+
+.tipo9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(236,221,249);
+    width: 100%;
+
+    .contenido {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo {
+        color: #31145b;
+        font-family: Roboto, Arial;
+        font-weight: 700;
+        font-size: 22pt;
+        padding: 10px 0;
+        margin: 20px 0;
+    }
+    .texto1 {
+        color: #212121;
+        font-family: Roboto, Arial;
+        font-size: 12pt;
+        margin-bottom: 30px;
+    }
+    .texto2 {
+        color: #31145b;
+        font-family: Roboto, Arial;
+        font-weight: 600;
+        font-size: 13pt;
+        margin-bottom: 30px;
+    }
+    .texto3 {
+        color: #31145b;
+        font-family: Roboto, Arial;
+        font-weight: 600;
+        font-size: 13pt;
+    }
+    .texto4 {
+        color: #212121;
+        font-family: Roboto, Arial;
+        font-size: 13pt;
+        margin-bottom: 25px;
+    }
+    .texto5 {
+        color: #212121;
+        font-family: Roboto, Arial;
+        font-size: 13pt;
+        margin-bottom: 25px;
+    }
+    .texto6 {
+        color: #212121;
+        font-family: Roboto, Arial;
+        font-size: 13pt;
+        margin-bottom: 25px;
+    }
+    .seccionContainer {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        .seccion {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            width: 40%;
+            text-align: center;
         }
     }
 }
