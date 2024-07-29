@@ -1,0 +1,280 @@
+body {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton1 {
+    background-color: #351c75;
+    color: white;
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    padding: 5px;
+    font-size: 15pt;
+    border: none;
+}
+.boton2 {
+    background-color: #351c75;
+    color: white;
+    font-family: Roboto, Arial;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 15pt;
+    border: none;
+}
+
+.tipo1 {
+    display: flex;
+    width: 85%;
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding: 10px;
+
+        .titulo {
+            color: #351c75;
+            font-family: Roboto, Arial;
+            font-weight: 700;
+            font-size: 26pt;
+            padding: 10px 0;
+        }
+        .subtitulo {
+            color: #31145b;
+            font-family: Roboto, Arial;
+            font-weight: 500;
+            vertical-align: baseline;
+            font-size: 17pt;
+            padding: 10px 0;
+        }
+        .texto {
+            color: #212121;
+            font-family: Roboto, Arial;
+            font-variant: normal;
+            font-weight: 500;
+            vertical-align: baseline;
+            font-size: 15pt;
+            line-height: 38px;
+        }
+    }
+    .imagen {
+        width: 40%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.tipo2 {
+    display: flex;
+    width: 85%;
+    margin-top: 20px;
+
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding: 10px;
+
+        .subtitulo {
+            color: #31145b;
+            font-family: Roboto, Arial;
+            font-weight: 700;
+            vertical-align: baseline;
+            font-size: 19pt;
+            padding: 10px 0;
+        }
+        ul {
+            list-style-type: square;
+        }
+        li {
+            color: #212121;
+            font-family: Roboto, Arial;
+            font-size: 18pt;
+            line-height: 38px;
+        }
+    }
+    .imagen {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.tipo3 {
+    display: flex;
+    width: 85%;
+    margin-top: 20px;
+
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+        .titulo {
+            color: #31145b;
+            font-family: Roboto, Arial;
+            font-weight: 700;
+            vertical-align: baseline;
+            font-size: 24pt;
+            padding: 10px 0;
+        }
+        ul {
+            list-style-type: square;
+        }
+        li {
+            color: #212121;
+            font-family: Roboto, Arial;
+            font-size: 18pt;
+            line-height: 38px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.tipo4 {
+    display: flex;
+    width: 85%;
+    margin-top: 20px;
+
+    .imagen {
+        width: 45%;
+        img {
+            width: 100%;
+        }
+    }
+
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        padding-left: 30px;
+
+        .titulo {
+            color: #31145b;
+            font-family: Roboto, Arial;
+            font-weight: 700;
+            vertical-align: baseline;
+            font-size: 22pt;
+            padding: 10px 0;
+        }
+
+        .subtitulo {
+            color: #31145b;
+            font-family: Roboto, Arial;
+            font-weight: 500;
+            vertical-align: baseline;
+            font-size: 17pt;
+            padding: 10px 0;
+        }
+        ul {
+            list-style-type: square;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 20px;
+            margin-inline-end: 0;
+            padding-inline-start: 0;
+        }
+        li {
+            color: #212121;
+            font-family: Roboto, Arial;
+            font-size: 13.5pt;
+            line-height: 38px;
+        }
+    }
+}
+
+.tipo5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    margin-top: 20px;
+
+    .titulo {
+        color: #31145b;
+        font-family: Roboto, Arial;
+        font-weight: 700;
+        vertical-align: baseline;
+        font-size: 24pt;
+        padding: 10px 0;
+        margin: 25px 0;
+    }
+    .seccionContainer {
+        display: flex;
+        gap: 10px;
+        .seccion {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            width: 25%;
+    
+            .titulo {
+                color: #31145b;
+                font-family: Roboto, Arial;
+                font-weight: 700;
+                vertical-align: baseline;
+                font-size: 18pt;
+                padding: 10px 0;
+                text-align: center;
+            }
+            .texto {
+                color: #212121;
+                font-family: Roboto, Arial;
+                font-size: 13pt;
+                line-height: 33px;
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.tipo6 {
+    display: flex;
+    width: 85%;
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding: 10px;
+
+        .titulo {
+            color: #351c75;
+            font-family: Roboto, Arial;
+            font-weight: 700;
+            font-size: 22pt;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+        .texto {
+            color: #212121;
+            font-family: Roboto, Arial;
+            font-variant: normal;
+            font-weight: 500;
+            vertical-align: baseline;
+            font-size: 15pt;
+            line-height: 38px;
+        }
+        ul {
+            list-style-type: square;
+        }
+        li {
+            color: #212121;
+            font-family: Roboto, Arial;
+            font-size: 13.5pt;
+            line-height: 38px;
+        }
+    }
+    .imagen {
+        width: 40%;
+        img {
+            width: 100%;
+        }
+    }
+}
